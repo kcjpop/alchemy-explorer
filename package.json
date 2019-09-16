@@ -1,0 +1,14 @@
+{
+  "name": "alchemy-explorer",
+  "version": "1.0.0",
+  "main": "src/Main.elm",
+  "license": "MIT",
+  "scripts": {
+    "start": "elm reactor",
+    "build": "elm make src/Main.elm --output public/main.js"
+  },
+  "dependencies": {
+    "elm": "0.19.0-no-deps",
+    "elm-format": "0.8.2"
+  }
+}
